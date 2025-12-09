@@ -1,6 +1,7 @@
-// next.config.js
+// next.config.mjs
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'standalone', // Ensures standalone build output
   images: {
     remotePatterns: [
       {
